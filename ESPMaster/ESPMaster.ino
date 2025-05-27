@@ -23,7 +23,7 @@
   These define statements can be changed as you desire for changing the functionality and
   behaviour of your device.
 */
-#define SERIAL_ENABLE       false   //Option to enable serial debug messages
+#define SERIAL_ENABLE       false   //Option to enable serial debug messages. "true" Will disable I2C communications to allow serial monitoring.
 #define UNIT_CALLS_DISABLE  false   //Option to disable the call to the units so can just debug the ESP with no connections
 #define OTA_ENABLE          true    //Option to enable OTA functionality
 #define UNITS_AMOUNT        10      //Amount of connected units !IMPORTANT TO BE SET CORRECTLY!

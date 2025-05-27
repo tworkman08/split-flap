@@ -197,6 +197,7 @@ So far we've only uploaded static files to the ESP8266. You now need to `Upload`
 ### Common Problems
 
 - If the ESP is not talking to the units correctly, check the `UNITSAMOUNT` in the `ESPMaster.ino`. The amount of units connected has to match.
+- ESP Serial debugging must be set to "false" for ESP01 to communicate to Nanos over I2C.
 - Ensure you upload the sketch and the LittleFS sketch upload to the ESP8266.
 - When the system is powered, your Hall Sensor should only light up when a magnet is nearby.
 - Ensure you are running an older version of Arduino IDE to be able to upload static files to the device. You will need a version prior to version 2.x.
